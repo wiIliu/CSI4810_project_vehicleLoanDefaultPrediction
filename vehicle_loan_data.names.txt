@@ -1,0 +1,46 @@
+Column Descriptions
+
+'uniqueid'-------------------------------unique key
+'disbursed_amount'-----------------------Amount of money disbursed/given to the borrower
+'asset_cost'-----------------------------Total cost of the vehicle
+'ltv'------------------------------------Loan-to-value ratio
+'branch_id'------------------------------Branch where loan was processed
+'supplier_id'----------------------------Supplier of the vehicle
+'manufacturer_id'------------------------Vehicle manufacturer
+'current_pincode_id'---------------------Postal Index Code. Borrower's current postal code. Is a unique 6 digit number assigned to each post office in India
+'date_of_birth'--------------------------Date of birth
+'employment_type'------------------------Employment status
+'disbursaldate'--------------------------Date loan was issued
+'state_id'-------------------------------State where borrower lives
+'employee_code_id'-----------------------Employee who processed loan
+'mobileno_avl_flag'----------------------Mobile phone indicator
+'aadhar_flag'----------------------------Aadhaar card holder. Aadaar car is a 12 digit resident of India id number. Is proof of identity and address
+'pan_flag'-------------------------------PAN card holder. Permanent Account Number. Is a 10 digit alphanumeric code issued by Indian tax dpt. Mandatory for individuals earning taxable income in India. Many financial institutions require a PAN card for various activities, such as opening bank accounts, investing in securities, and obtaining loans.
+'voterid_flag'---------------------------Voter ID card holder. 
+'driving_flag'---------------------------Driver's license holder
+'passport_flag'--------------------------Passport holder
+'perform_cns_score'----------------------Credit score
+'perform_cns_score_description'----------Credit score description of risk 
+'pri_no_of_accts'------------------------Number of primary accounts. A primary account is core lines of credit the borrower is personally responsible for, such as, credit cards, loans, and overdrafts.
+'pri_active_accts'-----------------------Number of active primary accounts
+'pri_overdue_accts'----------------------Number of overdue primary accounts. This is an account where the borrower hasn't made a payment on time. Payment is late but not necessarily delinquent yet.
+'pri_current_balance'--------------------Primary accounts' current balance.
+'pri_sanctioned_amount'------------------Primary accounts' sanctioned amounts.
+'pri_disbursed_amount'-------------------Primary accounts' disbursed amounts.
+'sec_no_of_accts'------------------------Number of secondary accounts. A secondary account is often lines of credit that the individual is not directly responsible for. It could be associated with a family member. These accounts can be joint accounts, guarantor accounts, or co-signed accounts. The borrower may have shared responsibility on these accounts, but it is generally the primary account holders job.
+'sec_active_accts'-----------------------Number of active secondary accounts.
+'sec_overdue_accts'----------------------Number of overdue secondary accounts.
+'sec_current_balance'--------------------Secondary accounts' current balance.
+'sec_sanctioned_amount'------------------Secondary accounts' sanctioned amounts.
+'sec_disbursed_amount'-------------------Secondary accounts' disbursed amounts
+'primary_instal_amt'---------------------Primary installment amount.
+'sec_instal_amt'-------------------------Secondary installment amount.
+'new_accts_in_last_six_months'-----------Number of new accounts opened in the last 6 months.
+'delinquent_accts_in_last_six_months'----Number of delinquent accounts in the last 6 months. An account is delinquent when the borrower has failed to make a payment on time. This also implies loaner has tried to collect on the debt.
+'average_acct_age'-----------------------Average age of accounts.
+'credit_history_length'------------------Length of the credit history. 
+'no_of_inquiries'------------------------Number of inquiries made by lenders.
+
+
+
+
