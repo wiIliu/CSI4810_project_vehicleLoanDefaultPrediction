@@ -18,4 +18,4 @@ uniqueid = st.slider("Select a unique ID from the test set", min_value=0, max_va
 
 if st.button("Predict"):
     pred = prediction(uniqueid)
-    st.write(f"The prediction for ID {uniqueid} is:  **{'Likely to Default' if pred == 1 else 'Not Likely to Default'}**")
+    st.write(f"The prediction for index {uniqueid} is:  **{'Likely to Default' if pred == 1 else 'Not Likely to Default'}**")
